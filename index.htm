@@ -2308,7 +2308,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<div class="ast-builder-footer-grid-columns site-below-footer-inner-wrap ast-builder-grid-row">
 											<div class="site-footer-below-section-1 site-footer-section site-footer-section-1">
 								<div class="ast-builder-layout-element ast-flex site-footer-focus-item ast-footer-copyright" data-section="section-footer-builder">
-				<div class="ast-footer-copyright"><p>Copyright © 2024 Glow Kick Martial Arts</p>
+				<div class="ast-footer-copyright"><p id='copyright'></p>
 </div>			</div>
 						</div>
 											<div class="site-footer-below-section-2 site-footer-section site-footer-section-2">
@@ -2356,7 +2356,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 <script>
-  let copyright = document.getElementsByClassName("ast-footer-copyright");
+  let copyright = document.getElementById("copyright");
   const d = new Date();
   let year = d.getFullYear(); 
   copyright.innerHTML = "Copyright © "+year+" Glow Kick Martial Arts";
